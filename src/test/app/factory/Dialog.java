@@ -1,8 +1,12 @@
 package test.app.factory;
 
-public abstract class Dialog {
+public  class Dialog {
 	
-	public abstract Button getButton();
+	// Default Factory method implementation - SubClass can change this by extending this class and overriding
+	// this method.
+	public  Button getButton() {
+		return new NoButton();
+	}
 	
 	public void render() {
 		Button button = getButton();
