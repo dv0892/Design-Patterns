@@ -34,7 +34,7 @@ public class PatternTester {
 		 * Classic : Chair, Sofa and Table
 		 * 
 		 * Customer is having these three item and he doesn't want Modern Chair and with Classic Sofa.
-		 * He wants a Modern Chair with Modern Sofa and Table.
+		 * He wants a Modern Chair with Modern Sofa and Table. So these are related groups of objects.
 		 * 
 		 * Now can create a multiple( Modern or Classic ) factories each returning related variants of Chair, Sofa and Table.
 		 * And this factory can be assigned to customer .

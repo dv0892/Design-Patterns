@@ -86,13 +86,17 @@ public class PatternTester {
 		StepsToBuildSpecies director = new StepsToBuildSpecies(humanSpeciesBuilder);
 		director.constructSpecies();
 		
-		System.out.println( humanSpeciesBuilder.getHuman() );
+		Human human = humanSpeciesBuilder.getHuman();
+		
+		System.out.println( human );
 		
 		director.setSpeciesBuilder(insectSpeciesBuilder);
 		director.constructSpecies();
 		
 		
-		System.out.println( insectSpeciesBuilder.getInsect() );
+		Insect insect = insectSpeciesBuilder.getInsect();
+		
+		System.out.println( insect );
 	}
 
 }
