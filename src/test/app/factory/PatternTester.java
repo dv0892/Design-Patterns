@@ -13,7 +13,7 @@ public class PatternTester {
 		 * 
 		 * The Factory Method design pattern provides a solution:
 				Define a separate operation (factory method) for creating an object.
- 				Create an object by calling a factory method.
+ 			Create an object by calling a factory method.
 
 		 * 
 		 * Here We are letting the subclass ( WindowsDialog or MacDialog ) decide 
