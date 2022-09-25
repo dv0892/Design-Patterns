@@ -38,6 +38,7 @@ public class PatternTester {
 		 * This is also known as Wrapper pattern.
 		 * 
 		 * Let's call the common interface Component and newly created class Decorator.
+		 * Decorator is a Component and also has a Component.
 		 * 
 		 * class Decorator implements Component {
 		 * 
