@@ -69,6 +69,14 @@ public class PatternTester {
 		 
 		 dataInStream.close();
 		
+		 //Additional Behaviour at run-time to convert ti upper case
+		 
+		 UpperCaseInputStream in = new UpperCaseInputStream( new BufferedInputStream( new FileInputStream("test1")));
+		 int c ;
+		 while((c=in.read())>=0)
+			 System.out.print((char)c);
+		 
+		 in.close();
 	}
 
 }

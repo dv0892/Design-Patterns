@@ -46,9 +46,10 @@ public class PatternTester {
 		mainBoard.addComponent(memory);
 		mainBoard.addComponent(processor);
 		
-		Component chassis = new Chassis("Chassis", 0);
 		Component disk = new Disk("Disk", 500);
 		
+		Component chassis = new Chassis("Chassis", 0);
+				
 		chassis.addComponent(mainBoard);
 		chassis.addComponent(disk);
 		
